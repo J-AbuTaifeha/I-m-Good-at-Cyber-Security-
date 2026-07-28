@@ -34,7 +34,7 @@ def check_password_strength():
         
     print(f"\nStrength Score: {score}/5")
     if score == 5:
-        print("Status: Strong Password! 🔒")
+        print("Think you are good at cyber security ?! You have just got hacked by Mythos !")
     else:
         print("Status: Weak Password. Suggestions:")
         for tip in feedback:
